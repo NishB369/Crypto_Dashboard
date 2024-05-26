@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto_Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./Media/favicon.png" />
+  </head>
+
+  <body>
+    <div style="position: absolute">
+      <div
+        class="main_right"
+        style="
+          width: 18vw;
+          height: 100vh;
+          position: fixed;
+          background-color: #272727;
+        "
+      >
+        <button class="logo">
+          <img src="./Media/favicon.png" alt="" height="50px" width="50px" />
+        </button>
+
+        <div class="left_subdivs" id="top">
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              color: #888888;
+              font-weight: 600;
+            "
+          >
+            ANALYTICS
+          </p>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Dashboard_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            <span class="button_text">Dashboard</span>
+          </button>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Sales_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Sales
+          </button>
+        </div>
+
+        <div class="left_subdivs" style="position: relative; top: 40px">
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              color: #888888;
+              font-weight: 600;
+            "
+          >
+            CONTENT
+          </p>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Blogs_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Blogs
+          </button>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Notification_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Notifications
+          </button>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Checklists_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Checklists
+          </button>
+        </div>
+
+        <div class="left_subdivs" style="position: relative; top: 45px">
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              color: #888888;
+              font-weight: 600;
+            "
+          >
+            CUSTOMIZATION
+          </p>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Theme_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Themes
+          </button>
+
+          <button class="left_nav_sub_button">
+            <img
+              class="button_icon"
+              src="./Media/Left_Bar_Icons/Settings_Icon.png"
+              alt=""
+              height="20px"
+              width="20px"
+            />
+            Settings
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="main_left"
+        style="width: 75vw; height: 100vh; position: absolute; left: 20.75vw"
+      >
+        <div class="nav_bar">
+          <p class="nav_bar_placeholder" style="color: white">
+            Search Currency...
+          </p>
+        </div>
+
+        <div class="header">
+          <div class="header_txt">Icon</div>
+          <div class="header_txt">Name</div>
+          <div class="header_txt">Symbol</div>
+          <div class="header_txt">Price(USD)</div>
+          <div class="header_txt">Change(24h)</div>
+          <div class="header_txt">Volume</div>
+          <div class="header_txt">Market Cap</div>
+        </div>
+
+        <div class="content" id="box1">
+          <div class="content_text_div">
+            <div class="content_txt" id="Icon">
+              <img
+                src="./Media/Crypto_Icons/bitcoin-svgrepo-com.svg"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Bitcoin</div>
+            <div class="content_txt">btc</div>
+            <div class="content_txt">$69102</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">2.42428%</span>
+            </div>
+            <div class="content_txt">$18395480520</div>
+            <div class="content_txt">$1361264079387</div>
+          </div>
+        </div>
+
+        <div class="content" id="box2">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/ethereum.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Ethereum</div>
+            <div class="content_txt">eth</div>
+            <div class="content_txt">$3747.24</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">1.02659%</span>
+            </div>
+            <div class="content_txt">$12994166855</div>
+            <div class="content_txt">$450361342907</div>
+          </div>
+        </div>
+
+        <div class="content" id="box3">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/Tether.png"
+                alt=""
+                height="30px"
+                width="30px"
+                alt=""
+              />
+            </div>
+            <div class="content_txt">Tether</div>
+            <div class="content_txt">usdt</div>
+            <div class="content_txt">$1</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">0.08928%</span>
+            </div>
+            <div class="content_txt">$29636380298</div>
+            <div class="content_txt">$111931961795</div>
+          </div>
+        </div>
+
+        <div class="content" id="box4">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/BNB.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">BNB</div>
+            <div class="content_txt">bnb</div>
+            <div class="content_txt">$601.93</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">0.83216%</span>
+            </div>
+            <div class="content_txt">$564572884</div>
+            <div class="content_txt">$92586394901</div>
+          </div>
+        </div>
+
+        <div class="content" id="box5">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/solana.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Solana</div>
+            <div class="content_txt">sol</div>
+            <div class="content_txt">$168.29</div>
+            <div class="content_txt">
+              <span style="color: red">-0.0385%</span>
+            </div>
+            <div class="content_txt">$2025806674</div>
+            <div class="content_txt">$75732278167</div>
+          </div>
+        </div>
+
+        <div class="content" id="box6">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/Steth.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Lido Staked Ether</div>
+            <div class="content_txt">steth</div>
+            <div class="content_txt">$3745.91</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">0.83148%</span>
+            </div>
+            <div class="content_txt">$84810571</div>
+            <div class="content_txt">$34825160295</div>
+          </div>
+        </div>
+
+        <div class="content" id="box7">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/USDC.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">USDC</div>
+            <div class="content_txt">usdc</div>
+            <div class="content_txt">$0.999751</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">0.02119%</span>
+            </div>
+            <div class="content_txt">$4354766971</div>
+            <div class="content_txt">$32775842030</div>
+          </div>
+        </div>
+
+        <div class="content" id="box8">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/XRP.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">XRP</div>
+            <div class="content_txt">xrp</div>
+            <div class="content_txt">$0.537531</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">0.65308%</span>
+            </div>
+            <div class="content_txt">$574051845</div>
+            <div class="content_txt">$29802515869</div>
+          </div>
+        </div>
+
+        <div class="content" id="box9">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/Doge.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Dogecoin</div>
+            <div class="content_txt">doge</div>
+            <div class="content_txt">$0.16536</div>
+            <div class="content_txt">
+              <span style="color: red">-0.14602%</span>
+            </div>
+            <div class="content_txt">$1528750159</div>
+            <div class="content_txt">$23867054205</div>
+          </div>
+        </div>
+
+        <div class="content" id="box10">
+          <div class="content_text_div">
+            <div>
+              <img
+                src="./Media/Crypto_Icons/Toncoin.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="content_txt">Toncoin</div>
+            <div class="content_txt">ton</div>
+            <div class="content_txt">$6.43</div>
+            <div class="content_txt">
+              <span style="color: rgb(0, 255, 0)">3.15724%</span>
+            </div>
+            <div class="content_txt">$178308791</div>
+            <div class="content_txt">$22335223141</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
